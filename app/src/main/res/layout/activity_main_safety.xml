@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@color/blueDark"
+    android:layout_height="match_parent"
+    tools:context=".Main_safety">
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="SAFETY"
+        android:textColor="#ffff"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/retangulo"
+        android:gravity="center_vertical"
+        android:hint="Utilizador"
+        android:paddingLeft="12dp"
+        android:textSize="23sp" />
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/retangulo"
+        android:gravity="center_vertical"
+        android:hint="Senha"
+        android:paddingLeft="23dp"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btnLogim"
+        android:layout_width="350dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+       android:backgroundTint="@color/deepBlue"
+        android:layout_below="@id/edtpassword"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botao_custumizado"
+        android:text="Entrar" />
+    <TextView
+        android:id="@+id/txtForgetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogim"
+        android:text="Esqueceu a sua senha?"
+        android:textColor="#ffff"
+        android:layout_marginTop="120dp"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+
+
+        />
+
+
+</RelativeLayout>
