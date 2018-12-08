@@ -21,7 +21,7 @@
     <EditText
         android:id="@+id/edtUser"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_below="@id/txtLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="12dp"
@@ -30,11 +30,11 @@
         android:gravity="center_vertical"
         android:hint="Utilizador"
         android:paddingLeft="12dp"
-        android:textSize="23sp" />
+        android:textSize="15sp" />
     <EditText
         android:id="@+id/edtpassword"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_below="@id/edtUser"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="12dp"
@@ -43,7 +43,7 @@
         android:gravity="center_vertical"
         android:hint="Senha"
         android:paddingLeft="23dp"
-        android:textSize="23sp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/btnLogim"
