@@ -68,7 +68,7 @@
         android:layout_centerInParent="true"
         android:textSize="12sp"
         android:textColor="@color/white"
-        android:background="none"
+        android:background="@color/blueDark"
         android:textAllCaps="false"/>
 
 
