@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Safety</string>
+    <string name="user">Utilizador</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="forgetPassword">Esqueceu a sua senha?</string>
+    <string name="appName">SAFETY</string>
 </resources>

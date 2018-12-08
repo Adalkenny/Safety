@@ -14,61 +14,63 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="54dp"
-        android:text="SAFETY"
+        android:text="@string/appName"
         android:textColor="#ffff"
         android:textSize="45sp" />
 
     <EditText
         android:id="@+id/edtUser"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_below="@id/txtLogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="62dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/retangulo"
         android:gravity="center_vertical"
-        android:hint="Utilizador"
-        android:paddingLeft="12dp"
+        android:hint="@string/user"
+        android:paddingLeft="10dp"
         android:textSize="15sp" />
+
     <EditText
-        android:id="@+id/edtpassword"
-        android:layout_width="350dp"
+        android:id="@+id/edtPassword"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_below="@id/edtUser"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="12dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/retangulo"
         android:gravity="center_vertical"
-        android:hint="Senha"
-        android:paddingLeft="23dp"
+        android:hint="@string/password"
+        android:paddingLeft="10dp"
         android:textSize="15sp" />
 
     <Button
         android:id="@+id/btnLogim"
-        android:layout_width="350dp"
-        android:textSize="20sp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="40dp"
        android:backgroundTint="@color/deepBlue"
-        android:layout_below="@id/edtpassword"
+        android:layout_below="@id/edtPassword"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
         android:background="@drawable/botao_custumizado"
-        android:text="Entrar" />
-    <TextView
-        android:id="@+id/txtForgetPass"
+        android:text="@string/login"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnForgetPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnLogim"
-        android:text="Esqueceu a sua senha?"
-        android:textColor="#ffff"
-        android:layout_marginTop="120dp"
+        android:text="@string/forgetPassword"
+        android:layout_marginTop="150dp"
         android:layout_centerInParent="true"
-        android:textSize="15sp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:background="none"
+        android:textAllCaps="false"/>
 
-
-        />
 
 
 </RelativeLayout>

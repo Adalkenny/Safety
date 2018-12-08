@@ -5,4 +5,5 @@
     <color name="deepBlue">#00bfff</color>
     <color name="blueDark">#1f2d44</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
 </resources>
